@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Forms</title>
+    </head>
+    <!-- Change bg color in all page -->
+        <body bgcolor="#E6E6FA">
+        <!-- To change background color -->
+            <font color="black"><h1 align="center">How To Create Forms</h1></font>        
+        <!-- How to create forms -->
+            <form class="formulario" align="middle">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                        <label for="name">Name:</label>
+                        <input type="text" name="Name" id="name" placeholder="Name" autocomplete="off">
+
+                        <br><br>
+                        <label for="last name">Last Name:</label>
+                        <input type="text" name="Last Name" id="last name" placeholder="Last Name" autocomplete="off">
+
+                        <br><br>
+                    <!-- How to create forms with predifined options -->
+                    <label>Gender:</label>
+                        <input type="radio" name="Gender" value="men">Men.  
+                        <input type="radio" name="Gender" value="women">Women. 
+                        <input type="radio" name="Gender" value="other">Other.
+                </fieldset>
+                <br><br>
+                <fieldset>
+                    <legend>Course Selection</legend>
+                    <br>
+                        <label>Shift:</label>
+                            <select class="shift" name="shift">
+                                <option value="day">Day</option>
+                                <option value="day">Night</option>
+                            </select>                
+                    <!-- How to create a Data List -->                
+                    <br><br>
+                    <label>Suggestions</label>
+                        <input list="Suggestions" name="suggestions">
+                        <datalist id="Suggestions">
+                             <option value="Java">
+                             <option value="Python">
+                             <option value="MySql">
+                                                                 
+                        </datalist>                       
+                </fieldset>
+                    <br>
+                <input type="submit" value="Submit">
+        </form>        
+    </body>
+</html>

@@ -1,5 +1,5 @@
 # 365-Days-Of-Code
-I'll be posting ever single day what I learned and see how far I can go.
+I'll be posting ever single day what I learned and see how far I can go. Read More...
 
 Hi! I'm so glad that you are reading this, that means that at least someone is sharing with my this journey and that is more than enough.
 

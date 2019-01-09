@@ -1,0 +1,36 @@
+nav.MenuPri{
+    float: left;
+    margin: 0;
+    overflow:hidden;
+    text-align: center;    
+}
+nav.MenuPri ul{
+    margin: 0;
+    padding: 0;
+    padding-left: 200px;   
+}
+
+nav.MenuPri ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+nav > ul > li > a{
+    color: black;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 1em;
+    font-size: 50px;         
+    text-decoration: none
+}
+.logo{
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+.contenedor{
+    background:pink;
+    overflow: hidden;
+ }
+
+
+

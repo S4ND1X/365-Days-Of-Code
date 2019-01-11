@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'library_3_amregular';
+    src: url('library_3_am-webfont.woff2') format('woff2'),
+         url('library_3_am-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+@font-face {
+    font-family: 'mrrobotregular';
+    src: url('robot-webfont.woff2') format('woff2'),
+         url('robot-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+nav.MenuPri{
+    float: left;
+    margin: 0;
+    overflow:hidden;
+    text-align: center;    
+}
+nav.MenuPri ul{
+    margin: 0;
+    padding: 45px;
+    padding-left: 125px;  
+}
+
+
+/* Aqui va */
+
+nav > ul > li > a{
+    color: black;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 1em;
+    font-size: 40px;         
+    text-decoration: none
+}
+
+
+nav.MenuPri ul li{
+    display: inline-block;
+    list-style-type: none;
+    font-family: 'library_3_amregular';    
+}
+.logo{
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+.contenedor{
+    background:pink;
+    overflow: hidden;
+}
+section.productos{
+    float: left;
+}
+body{
+    background: #C5E1FF;   
+}
+h1{
+    font-family: 'mrrobotregular';
+    font-weight: lighter;    
+}
+h3{
+     font-style: oblique
+ }
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+}
+
+
+ 
+/* Font Family */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

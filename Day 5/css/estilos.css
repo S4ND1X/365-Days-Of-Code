@@ -1,0 +1,128 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+.clearfix:before,
+.clearfix:after{
+    content: '';
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+
+
+ @font-face {
+    font-family: 'library_3_amregular';
+    src: url('library_3_am-webfont.woff2') format('woff2'),
+         url('library_3_am-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+@font-face {
+    font-family: 'mrrobotregular';
+    src: url('robot-webfont.woff2') format('woff2'),
+         url('robot-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+nav.MenuPri{
+    float: left;
+    margin: 0;
+    overflow:hidden;       
+}
+nav.MenuPri ul{
+    margin: 0;
+    padding: 45px;
+    padding-left: 250px;
+    
+}
+
+
+nav > ul > li > a{
+    
+    color: black;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 1em;
+    font-size: 30px;         
+    text-decoration: none;
+    font-weight: bold;    
+}
+
+nav.MenuPri ul li{
+    display: inline-block;
+    list-style-type: none;
+    font-family: 'library_3_amregular';    
+}
+.logo{
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+.contenedor{
+    background:pink;
+    overflow: hidden;
+    height:170px
+}
+aside{
+    text-align: center
+}
+body{
+    background: #C5E1FF;   
+}
+h1{
+    font-family: 'library_3_amregular';
+    font-weight: lighter;    
+}
+h3{
+     font-style: oblique
+ }
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-size: 18px;
+    font-weight: lighter
+}
+
+section.productos{
+    text-align: center;     
+}
+section.productos ul li{
+    display: inline-block;
+    padding: 0.5em 5em;  
+}
+section.productos ul{
+    text-align: center
+}
+section.productos ul li img{
+    width: 150px;
+
+}
+footer{
+    background:pink;
+    height: 140px
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

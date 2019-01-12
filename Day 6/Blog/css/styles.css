@@ -1,0 +1,76 @@
+html{
+    box-sizing: border-box;
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace
+}
+
+header{
+    padding: 20px 0;
+}
+
+div.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+div.container img{
+    width: 333px;
+    height: 128.5px
+}
+
+/** First Level **/ 
+.navigation{
+    background-color: #07916D
+}
+nav{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+nav ul{
+    list-style: none;
+}
+nav > ul > li{
+    float: left;
+}
+nav ul::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+nav ul li a{
+    display: inline-block;
+    width: 200px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+}
+nav ul li a:hover{
+    background-color: #19477F
+}
+
+/* Second Level */
+nav ul ul{
+    position: absolute;
+    top: 100%;
+    background-color: #E35400;
+    display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+}
+nav ul li:hover {
+    background-color: #19477F;
+}

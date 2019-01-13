@@ -10,5 +10,4 @@ Tomorrow I'll be trying give more detail to the web and also learn all things yo
 
 
 **Take chances, make mistakes. That's how you grow. Pain nourishes your courage. You have to fail in order to practice being brave.**
-
 **|** Mary Tyler Moore **|**

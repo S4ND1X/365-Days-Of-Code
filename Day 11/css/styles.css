@@ -1,0 +1,124 @@
+:root{
+    --dark:#a18cd1;
+    --buttons:#8cacd1;
+}
+html {
+    box-sizing: border-box;
+    min-height: 100%;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Staatliches', cursive; */
+    min-height: 100%;
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+    font-size: 1.6rem;
+}
+
+h1,h2,h3{
+    margin: 0;
+}
+h2,h3{
+    text-align: center;
+}
+h3{
+    color:var(--buttons);
+    font-weight: 400;
+    font-size: 2.2rem;
+}
+.site-header{
+    background: #ff9a9d44 
+}
+.site-header nav{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;    
+}
+
+@media (min-width:768px){
+    .site-header nav{
+        flex-direction: row;
+        justify-content: space-between; 
+
+    }
+}
+.site-header nav a{
+    color: var(--oscuro);
+    font-size: 2.2rem;
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+.site-header nav a:last-of-type{
+    margin-bottom: 0;
+}
+@media (min-width:768px){
+    .site-header nav a{
+        margin-bottom: 0;
+    }
+}
+.hero{
+    height: 50rem;
+    background-image: url(../img/hero.jpg);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero::after{
+    content: '';
+    background-color: #ffd1ff44;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.hero-container{
+    color:white;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.hero-container i{
+    font-size: 5rem;
+    color: var(--dark);
+    margin-right: 1rem;
+}
+.button{
+    background-color: var(--buttons);
+    padding: 1rem 5rem;
+    display: inline-block;
+    margin-top: 1rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 1rem;
+
+}
+
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+    background-color: #ffd1ff;
+    padding: 3 rem;
+    border-radius: 2rem;
+    -webkit-box-shadow: 10px 10px 25px -2px rgba(0,0,0,0.35);
+    -moz-box-shadow: 10px 10px 25px -2px rgba(0,0,0,0.35);
+    box-shadow: 10px 10px 25px -2px rgba(0,0,0,0.35);
+}
+.services{
+    margin: 3rem auto;
+    
+}
+
+
+

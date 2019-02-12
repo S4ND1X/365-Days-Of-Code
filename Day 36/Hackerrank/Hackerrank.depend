@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1549904739 source:d:\sandi\documents\programacion\lenguajes de programacion\c++\hackerrank\main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+

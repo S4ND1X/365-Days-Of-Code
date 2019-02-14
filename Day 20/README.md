@@ -1,4 +1,4 @@
-# Day 19
+# Day 20
 
 I was able to split the tweets, so I can receive what I want.
 The problem right now is the way that I am receiving them.

@@ -16,20 +16,20 @@ auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
-#Open/create csv file
+#!Open/create csv file
 #! Enconding has to be in the csvFile
 csvFile = open('tweets.csv','a', encoding='utf-8')
-#Use Csv Writer
+#!Use Csv Writer
 csvWriter = csv.writer(csvFile)
-#Ask how many tweets do you want and who
+#!Ask how many tweets do you want and who
 user = input("User: ")
 cant = int(input("Number Of Tweets: "))
-#Search the tweets in the user time line
+#!Search the tweets in the user time line
 userFeed = tweepy.Cursor(api.user_timeline, screen_name=user).items(cant)
-#Iterate trough the tweets
+#!Iterate trough the tweets
 for tweets in userFeed:
-#Get individual tweet
-  tweet = tweets.text
+#!Get individual tweet
+  tweet = tweets.text 
   tweet = str(tweet)
   if "Activa" in tweet:
     #Get word index

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1550497933 source:d:\sandi\documents\programacion\lenguajes de programacion\c++\birthday cake candles\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+

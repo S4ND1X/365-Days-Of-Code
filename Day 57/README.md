@@ -1,6 +1,8 @@
-#Day 57
-Today I started with the basics of Media Queries.
-I didn't have Too much time to code, but I promise that Tomorrow I will upload a lot of content
+#Day 58
+I learned a lot about Media Queries and how to use them.
+I learned what are break points and I think that I know when to use them.
+It's not very difficult but it is very important to know how to use them in order to make a good responsive website.
+
 
 
 

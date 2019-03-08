@@ -6,5 +6,3 @@ I'm going to use video, audio, flexbox, CSS grid, Media Queries. Also, I'm going
 
 
 
-
-

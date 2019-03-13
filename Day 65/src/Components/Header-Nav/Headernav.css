@@ -1,0 +1,9 @@
+.wea{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    background: coral;
+    padding: 1rem 1rem;
+}

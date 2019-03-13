@@ -1,7 +1,8 @@
-#Day 63
-Today I started to learn how to use react.
-I learned what it is used for and why.
-I was using Boilerplate, but a friend told me that React is what is really used in the real world.
-So, I installed Node JS and I'll moving my project to React.
+#Day 65
+Today I tried to make some advance with the Website, but I really don't know how to use CSS in React Components.
+I wanted to create a Dropdown, but I don't know why it doesn't work.
+I asked to some friends and one of them told me to use Bootstrap.
+So, I don't know if I should learn how to use Bootstrap with React or keep doing it, with CSS and Html.
+
 
 

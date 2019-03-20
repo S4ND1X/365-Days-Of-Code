@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Free Island Collection/Scenes/Scene 4.unity
-  isLoaded: 1
-  isActive: 1

@@ -1,0 +1,4 @@
+#Day 74
+I decided to stop the development of the game, but why? Well, I started to notice that I got stuck in certain things that should be much easier, so what I started doing is that I'm watching the courses created by the same people from Unity, they really explain the bases very well and I'm also reading the docuemntacion to try to understand better how the objects and components work, because I really want to develop something of quality. 
+Then I would like to finish these Unity courses, to return to the original game and apply the acquired knowledge. And I am forcing myself to take notes, to be able to consult them, besides I am paying a lot of attention to the tips that they propose to really raise my level.
+The good part is that, I do not think it takes so long to acquire the bases, because even so, I have some experience with Unity and I am familiar with several concepts, so I do not think the learning curve is very long.

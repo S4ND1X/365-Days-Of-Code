@@ -1,0 +1,3 @@
+#Day 86
+I started learning, Getters and Setters. Although I have some experience with java, I do not remember these methods. At the beginning I got very confused, because I did not understand why it was not better to simply declare a public variable, but after reading a bit I understood that OOP is based on encapsulating and trying to have a better protected code so that's where I understood why it was It is necessary to use these methods.
+It reminds me in some way when you declare a private variable in Unity / C # and so you can modify it in the inspector, you use SerializedField

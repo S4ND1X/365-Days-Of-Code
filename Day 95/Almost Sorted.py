@@ -47,6 +47,3 @@ elif inOrder(lista) == False:
             print(f"yes\nreverse {a+1} {b+1}")
         else:
             print("no")
-
-else:
-    print("no")

@@ -1,0 +1,58 @@
+.contain-form {
+    background: linear-gradient(rgba(150, 165, 247, 0),#8972da);
+    background-repeat:no-repeat;
+    height: -webkit-fill-available;
+}
+
+.contain-form li {
+    width: 50%;
+    padding-left: 0;
+    margin-right: 1rem;
+}
+
+.popup-form {
+    position: fixed;
+    background-color: white;
+    padding: 2rem;
+    left: 50%;
+    margin: 4rem 0rem;
+    transform: translateX(-50%);
+    width: 70%;
+    color: white;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+    color: #8972da;
+
+}
+
+.nav-form {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+.active {
+    border-bottom: 2px;
+    border-color: #8972da;
+    border: none;
+    border-bottom: 2px solid #8842d5;
+}
+
+.non-active {
+    color:rgba(158, 158, 158, 0.67);
+}
+
+.non-active:hover {
+    border: none;
+    border-bottom: 2px solid rgba(158, 158, 158, 0.67);
+}
+
+.forms-align {
+    text-align: center;
+}

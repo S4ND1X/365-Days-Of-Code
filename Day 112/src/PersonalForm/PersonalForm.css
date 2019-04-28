@@ -1,0 +1,20 @@
+.personal-form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    color: #8972da;
+    font-size:  1rem;
+    padding: .5rem 1rem;
+    margin: .3rem 0rem;
+    border: none;
+    border-bottom: 2px solid #8842d5;
+    width : 60%;
+}
+
+i {
+    border: none;
+    border-bottom: 2px solid #8842d5;
+    padding-bottom: .5rem;
+}

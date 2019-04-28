@@ -1,0 +1,37 @@
+.admin-card-container {
+    background-color: white;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.admin-card-container a {
+    text-decoration: none;
+}
+
+.admin-card-container i {
+    border: none;
+    margin: 1rem;
+    color: #8a79f7;
+}
+
+.fa-user-tie {
+    font-size: 2rem;
+}
+
+.style-information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.num-employees {
+    text-align: center;
+    color: #8a79f7;
+}
+
+.employees {
+    border: 2px solid #8a79f7;
+    padding: 2rem;
+    border-radius: 1rem;
+    color: #8a79f7;
+    text-align: center;
+}

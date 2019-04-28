@@ -1,0 +1,9 @@
+.result-container {
+    display: flex;
+}
+
+.container-result {
+    padding-top: 1rem;
+    background-color: #673ab714;
+    
+}

@@ -1,0 +1,45 @@
+.enterprise-form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    color: #8972da;
+    font-size:  1rem;
+    padding: .5rem 1rem;
+    margin: .3rem 0rem;
+    border: none;
+    border-bottom: 2px solid #8842d5;
+    width : 60%;
+}
+
+i {
+    border: none;
+    border-bottom: 2px solid #8842d5;
+    padding-bottom: .8rem;
+}
+
+.enterprise-form i:last-child {
+    padding-bottom: 0rem;
+}
+
+.custom-range {
+    padding: 0rem 1rem 0rem!important;
+    margin: 1rem 0rem 1rem !important;
+    border: none;
+    width: 60% !important;
+    height: 1rem !important;
+}
+
+.border-separator {
+    border: 1px solid #8842d5!important;
+    width: 57.5%;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.none-border {
+    border: none !important;
+}
+

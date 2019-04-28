@@ -1,0 +1,45 @@
+.logo-image {
+    padding-left: 2rem;
+    height: 4rem; 
+}
+
+.header-style {
+    background: linear-gradient(#7264c9,#8972da);
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-navigation {
+    list-style-type: none;
+    display: flex;
+    padding-right: 2rem;
+    margin: .5rem;
+}
+
+li {
+    padding: 1rem 2rem;
+}
+
+.user-avatar {
+    border-radius: 2rem;
+    height: 3rem;
+    align-self: center;
+    margin-right: 2rem;
+}
+
+.menu-content {
+    display: flex;
+}
+
+.btn-primary-mine {
+    background-color: #8a79f7;
+    padding: 14px 32px;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+
+.btn-secondary-mine {
+    color: white;
+}

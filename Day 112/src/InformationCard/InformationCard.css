@@ -1,0 +1,21 @@
+.card-container {
+    text-align: center;
+    width: 25%;
+    padding: 2rem .5rem;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0);
+    margin: 1rem 1rem;
+}
+.card-container i {
+    border: none;
+    color: #8a79f7;
+    margin-bottom: 1rem;
+}
+
+.card-container .title {
+    margin-bottom: 1rem;
+}
+
+.card-container .description {
+    color: #8a79f7;
+}

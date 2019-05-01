@@ -50,7 +50,6 @@ genera_archivo(dia)
 
 
 
-print("hola")
 
 
 

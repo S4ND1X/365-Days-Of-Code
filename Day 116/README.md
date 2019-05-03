@@ -1,6 +1,4 @@
-#Day 115
-Just one more week and I'll be free to code as much as I want.
-I just solved a little codesignals problem, I know it is very short but I'll try to do more things the next week.
+#Day 116
 
-
-
+I'm going back to web development. 
+One of my projects for summer will be to finish this website, it consists of an online store. Also, soon I'll start a data science contest, so I'll be learning from that.

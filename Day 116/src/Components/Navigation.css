@@ -1,0 +1,8 @@
+.nav-container ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav-container ul li {
+    margin: 0px 10px;
+}

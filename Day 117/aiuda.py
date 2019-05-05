@@ -92,5 +92,15 @@ def genera_reporte(datos, str_fecha):
 
 
 
+# x = list(filter(lambda x : x % 3 == 0, [1,2,3,4,5,6,7,8,9]))
+
+# print(x)
+
+import os
 
 
+mainpath = "datasets/"
+filename = "titanic/titanic3.csv"
+fullpath = os.path.join(mainpath, filename)
+
+print(fullpath)

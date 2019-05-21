@@ -1,5 +1,6 @@
-#Day 133
+#Day 134
 
-Today I started with the Unity game.
-It is a kind of galaga but with new graphics.
-This is very interesting since I am learning several concepts for the movement of the player. And of collisions.
+Today I wanted to go back to C ++ to train a couple of things.
+I realized that I had never done sorting algorithms in C ++ so I decided to do them to refresh everything.
+Despite of not being algorithms so complicated to program, they served me to regain a little fluency.
+Tomorrow I will continue doing exercises in C ++ so when I reach the subjects of data structures I have no problems with syntax and others.

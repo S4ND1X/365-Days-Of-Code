@@ -1,4 +1,4 @@
 #Day 137
 
-Hoy aprendí a usar recursividad en C++. Estoy muy contento porque encontre un video que explicaba la recursividad tan bien que logre reafirmar los conocimientos previos que ya tenía. 
-Mañana estare empezando el tema de punteros.
+Today I learned to use recursion in C ++. I am very happy because I found a video that explained the recursion so well that I managed to reaffirm the previous knowledge I already had.
+Tomorrow I will be starting the topic of pointers.

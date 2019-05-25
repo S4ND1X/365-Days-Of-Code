@@ -1,0 +1,4 @@
+#Day 138
+We started with pointers. The truth is that this topic is quite entertaining, since the understanding of this concept can take you far in C ++.
+For those who do not know, a pointer is a variable that will save a memory address, the memory address is where it is physically stored in RAM, one of your variables in your program. Pointers are very useful since you can start doing memory management without having to create copies of the variables, you directly change what is stored in that memory address.
+Tomorrow I will continue watching many videos about this in order to start seeing linked lists and piles.

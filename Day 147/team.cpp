@@ -7,8 +7,6 @@
 
 // This contest offers n problems to the participants. For each problem we know, which friend is sure about the solution. Help the friends find the number of problems for which they will write a solution.
 
-
-
 #include <iostream>
 using namespace std;
 //?Prototipo de funcion

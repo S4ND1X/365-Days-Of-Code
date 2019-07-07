@@ -1,2 +1,2 @@
-#Day 178
-I'm finishing with Swing components and tomorrow I'll be doing a Final project just to remember  all the previous knowledge.
+#Day 179
+Today I started with the final mini project to reaffirm the previous knowledge of Swing bookstore, I hope to finish it tomorrow.

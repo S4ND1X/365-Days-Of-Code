@@ -1,0 +1,2 @@
+#Day 181
+Today I almost finished the final mini project, I just need to connect the interfaces with each other. I have been able to reinforce the previous knowledge acquired before, the steps to follow when creating the components are clearer.

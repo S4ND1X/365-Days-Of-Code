@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from "react";
 import NavBar from "./components/NavBar";
-import ProductList from './components/ProductList'
+import ProductList from "./components/ProductList";
 
 //Arreglo de productos
 const initialProdducts = [
@@ -12,64 +12,65 @@ const initialProdducts = [
 ];
 
 class App extends Component {
-
   state = {
-    addedIds : [],
+    addedIds: [],
     quantityById: {},
-    products: initialProdducts,
+    products: initialProdducts
   };
-  addToCart =  (id) => {
-    const {addedIds, quantityById, products} = this.state;
+  addToCart = id => {
+    const { addedIds, quantityById, products } = this.state;
     const product = products.find(prod => prod.id === id);
-    const available = product.inventory -  (quantityById[id] || 0);
-    if(available > 0){
-      const newAddedIds = addedIds.find(prodId => prodId === id) ? addedIds : addedIds.concat(product.id); 
+    const available = product.inventory - (quantityById[id] || 0);
+    if (available > 0) {
+      const newAddedIds = addedIds.find(prodId => prodId === id)
+        ? addedIds
+        : addedIds.concat(product.id);
       const newQuantityById = {
         ...quantityById,
-        [id] : (quantityById[id] || 0) + 1,
+        [id]: (quantityById[id] || 0) + 1
       };
-      this.setState({addedIds : newAddedIds, quantityById: newQuantityById});
+      this.setState({ addedIds: newAddedIds, quantityById: newQuantityById });
     }
-  }
+  };
 
-  removeFromCart = (id) => {
+  removeFromCart = id => {
     const { addedIds, quantityById } = this.state;
-    if(quantityById[id]){
+    if (quantityById[id]) {
       const newQuantityById = {
         ...quantityById,
-        [id]: quantityById[id] > 1 ? quantityById[id] - 1 : undefined,
+        [id]: quantityById[id] > 1 ? quantityById[id] - 1 : undefined
       };
-      const newAddedIds = newQuantityById[id] ? addedIds : addedIds.filter(prodId => prodId !== id);
-      this.setState({addedIds : newAddedIds, quantityById: newQuantityById});
+      const newAddedIds = newQuantityById[id]
+        ? addedIds
+        : addedIds.filter(prodId => prodId !== id);
+      this.setState({ addedIds: newAddedIds, quantityById: newQuantityById });
     }
-  }
+  };
 
-  deleteFromCart = (id) => {
+  deleteFromCart = id => {
     const { addedIds, quantityById } = this.state;
-    if(quantityById[id]){
+    if (quantityById[id]) {
       const newQuantityById = {
         ...quantityById,
-        [id]: undefined,
+        [id]: undefined
       };
-      const newAddedIds =  addedIds.filter(prodId => prodId !== id);
-      this.setState({addedIds : newAddedIds, quantityById: newQuantityById});
+      const newAddedIds = addedIds.filter(prodId => prodId !== id);
+      this.setState({ addedIds: newAddedIds, quantityById: newQuantityById });
     }
-  }
+  };
 
-  getAvaible = () => {
-    
-  }
+  getAvaible = () => {};
 
   render() {
     return (
       //Se usa fragment para dividir sin crear nodos adicionales, No puede tener estilos
       <Fragment>
         <NavBar total={0.0} />
-        <ProductList 
-        products = {initialProdducts} 
-        addToCart = {this.addToCart}
-        removeFromCart = {this.removeFromCart}
-        deleteFromCart = {this.deleteFromCart}
+        <ProductList
+          products={initialProdducts}
+          addToCart={this.addToCart}
+          removeFromCart={this.removeFromCart}
+          deleteFromCart={this.deleteFromCart}
         />
       </Fragment>
     );

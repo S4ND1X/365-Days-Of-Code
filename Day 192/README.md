@@ -1,0 +1,2 @@
+#Day 192
+Today I added other fundamental parts of the game as it would be the destruction of the blocks, sound in the collisions and keep track of how many blocks there are in the scene and how many have been destroyed.

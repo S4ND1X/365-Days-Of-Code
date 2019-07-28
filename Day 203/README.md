@@ -1,4 +1,4 @@
-#Day 202
+#Day 203
 
-I don't know if I can finish today because I will have to leave my house but the game is almost 90% ready, I just need to display the player's score and life as well as add a start and death menu. Which is quite simple, so if I get back home early, I will finish it. To start with a completely new project tomorrow
-Today I managed to finish mainly collisions, sounds, particles and parallax.
+I managed to finish the second game, despite being quite simple. It helped me a lot to clarify concepts as well as to obtain greater fluidity and confidence when using Unity, repeating tasks helps a lot to get that practice.
+I realized that I had not uploaded a view of the games, so here are two videos of the games I have made, it is a small part of the complete game but more or less it is the idea behind them. I will start with nothing in 3D development, I already have several prototypes of 3D games that I will upload right here.

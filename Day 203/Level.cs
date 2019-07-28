@@ -6,8 +6,6 @@ using UnityEngine.SceneManagement;
 public class Level : MonoBehaviour
 {
     [SerializeField] private float waitSeconds = 1.5f;
-
-
     public void LoadStartMenu()
     {
         SceneManager.LoadScene(0);

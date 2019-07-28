@@ -9,7 +9,6 @@ public class ScoreDisplay : MonoBehaviour
     private Text scoreText;
     private GameSession gameSession;
 
-
     // Start is called before the first frame update
     void Start()
     {

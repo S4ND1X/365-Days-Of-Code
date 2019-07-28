@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class GameSession : MonoBehaviour
 {
-
     [SerializeField] private int score = 0;
 
     private void Awake()
@@ -19,8 +18,6 @@ public class GameSession : MonoBehaviour
          */
         if (FindObjectsOfType(GetType()).Length > 1) Destroy(gameObject);
         else DontDestroyOnLoad(gameObject);
-        
-
     }
 
     public int GetScore()
@@ -37,6 +34,4 @@ public class GameSession : MonoBehaviour
     {
         Destroy(gameObject);
     }
-
-
 }

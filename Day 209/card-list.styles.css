@@ -1,0 +1,9 @@
+.card-list {
+  width: 85vw;
+  margin: 0 auto;
+  display: grid;
+  /* se divide en 4 columnas de 1 fraccion o sea del mismo tamaño */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* Y habra 20 pixeles de espacio entre las columnas */
+  grid-gap: 20px;
+}

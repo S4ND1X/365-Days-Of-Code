@@ -28,6 +28,7 @@ public class Vector {
     // Suma los elementos de este vector con los del vector que fue pasado y regresa
     // el nuevo vector
     public Vector suma(Vector vector) {
+
         return new Vector(this.i + vector.i,
                         this.j + vector.j,
                         this.k + vector.k);
@@ -35,6 +36,7 @@ public class Vector {
 
     // Resta los elementos de ambos vectores
     public Vector resta(Vector vector) {
+
         return new Vector(this.i - vector.i,
                         this.j - vector.j,
                         this.k - vector.k);
@@ -68,24 +70,26 @@ public class Vector {
     public static void main(String[] args) {
         Vector vector1 = new Vector(1.0, 1.0, 1.0);
         Vector vector2 = new Vector(2.0, 2.0, 2.0);
-        
-       System.out.print("Suma de vectores => ");
-       vector1.suma(vector2).imprimeVector();
-       System.out.print("Resta de vectores => ");
-       vector1.resta(vector2).imprimeVector();
-        
-       System.out.printf("Magnitud => %.2f\n",vector1.magnitud());   
-       
-       System.out.printf("Producto punto => %.2f\n",vector1.productoPunto(vector2));
-       
-       System.out.print("Producto cruz => ");
-       vector1.productoCruz(vector2).imprimeVector();
-       
-       System.out.print("Reemplazo de valores => ");
-       vector1.agregar(vector2);
-       vector1.imprimeVector();
-        
+
+        System.out.print("Suma de vectores => ");
+        vector1.suma(vector2).imprimeVector();
+        System.out.print("Resta de vectores => ");
+        vector1.resta(vector2).imprimeVector();
+
+        System.out.printf("Magnitud => %.2f\n",vector1.magnitud());
+
+        System.out.printf("Producto punto => %.2f\n",vector1.productoPunto(vector2));
+
+        System.out.print("Producto cruz => ");
+        vector1.productoCruz(vector2).imprimeVector();
+
+        System.out.print("Reemplazo de valores => ");
+        vector1.agregar(vector2);
+        vector1.imprimeVector();
+
     }
-    
+
+
+
 
 }

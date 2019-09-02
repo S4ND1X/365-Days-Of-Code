@@ -6,11 +6,3 @@ Today I was watching several videos about android studio, but I want to wait unt
 
 
 
-estan apagaos
-estoy to pegao
-quieren de mi sound
-pero pierden este round
-
-mejor callate pendejo
-porque corro mas rapido que cone
-jo

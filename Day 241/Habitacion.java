@@ -27,7 +27,7 @@ public class Habitacion{
 	// ------------------------------------- Metodos -------------------------------------
 	public int getNumero(){ return this.numero; }
 
-	public boolean getDisponible() { return this.disponible; }
+	public boolean getDisponible()  { return this.disponible; }
 
 	public void checkIn(String nombre, int adultos, int infantes, double credito){
 		this.nombre = nombre;
@@ -64,5 +64,6 @@ public class Habitacion{
 	public String toString(){
 		return this.numero + " de habitacion, Huesped: " + this.nombre + ", TarifaBase: " + getTarifaBase() + ", Credito: " +this.credito + ", Cargos: " + this.cargo;
 	}
+
 }
 

@@ -1,0 +1,2 @@
+#Day 245
+Today I did the first part of my electricity and magenetism test, it went pretty well but tomorrow I have the probability test and I didn't study much. From homework I had to make a program that calculates the area of ​​a triangle given its vertices and that is object oriented.

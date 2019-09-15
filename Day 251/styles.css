@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Varela Round Regular'), local('VarelaRound-Regular'), url(https://fonts.gstatic.com/s/varelaround/v12/w8gdH283Tvk__Lua32TysjIfp8uK.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Font Awesome';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/fonts/fontawesome-webfont.ttf) format('truetype');
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Varela Round", sans-serif;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-decoration: none;
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+    color: black;
+}
+
+
+li{
+    margin: 10px 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

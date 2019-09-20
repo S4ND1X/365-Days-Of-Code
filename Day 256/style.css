@@ -1,0 +1,52 @@
+html{
+  height: 100%;
+}
+
+
+body{
+  background-color: #52ADFF;
+  height: 100%;
+}
+
+.main h1 {
+  color: whitesmoke;
+}
+.main h2 {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.hero {
+  background-color: #5F5EFF;
+}
+
+
+.nav-bar-but{
+  border: none !important;
+  background-color: rgba(36, 29, 39, 0.151) !important;
+}
+
+.fa-palette{
+  color: rgb(76, 40, 105);
+}
+
+.fa-home, .fa-robot, .fa-github, .fa-address-card {
+  color: white;
+}
+
+.fa-gamepad{
+  margin-left: 10px;
+  color: purple;
+}
+
+.main h1{
+  color: black;
+}
+.main h2{
+  font-size: 17px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+}
+
+
+

@@ -1,0 +1,2 @@
+#Day 260
+Today I learned to use maps in C ++, knowing how to use this structure will make several programming problems much easier. Tomorrow I will continue to investigate further although I will begin to see stacks and queues.

@@ -1,0 +1,2 @@
+#Day 271
+On Sunday I go to Monterrey for the interview so today I really did not have time to schedule but I wanted to do the exercise that I was asked in the first interview. Which was to check if a string is anagram of another string.

@@ -1,0 +1,2 @@
+#Day 270
+Today, a friend who is already a Microsoft Intern helped me practice for interviews. Even now everything is going well although of course I am nervous all the time due to the interview. But hope for the best.

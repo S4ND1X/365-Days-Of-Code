@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div class="carousel" id="car"></div>
+
+    <script>
+      let url = "https://api.spotify.com/v1/me/top/artists";
+
+      fetch(url,{
+        method: 'get',
+        headers:{
+          "Accept":"application/json",
+          "Content-Type":"application/json",
+          "Authorization":"Bearer BQAKVTU4KUmDF-xs4mBOv2rIPSU2RDoMB9V9Rg3pcMtESaEMIHSeG9HdSPxl2BE3dCMD9ii08sV-n28aoFhfvChNXs_UBiu7qBaypRRSgOzRjfv0GAtdoNxyDEaC_LBh9uqwoVFv_moocgJAfRff"
+        }
+      })
+
+        .then((response) => response.json())
+        .then((responseJson) => document.getElementById("artist").src=responseJson.items[0].images[2].url)
+        .catch(function(error) {
+          console.log("ooops!!!" + error);
+        });
+    </script>
+
+    <h1 id="artis-name">Duki</h1>
+    <img id="artist"></img>
+
+
+    <h1></h1>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>

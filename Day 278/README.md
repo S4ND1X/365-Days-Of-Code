@@ -1,4 +1,2 @@
-#Day 277
-Today unfortunately he receives the news that I was not accepted in Microsoft. But no problem, I will keep trying.
-I also see it as an opportunity to expand my cv and start making better projects.
-
+#Day 278
+Today I tried to have a break and return to Web Development, it's a little hard because I don't remember some concepts but once I read them I remember them very easy.

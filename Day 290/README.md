@@ -1,0 +1,2 @@
+#Day 290
+Today I finished doing the exercises that I could not do yesterday. Tomorrow I will dedicate a lot to do data structures and do many exercises. What excites me is that next week is quite easy in my school so I will finally have a little more time to program.

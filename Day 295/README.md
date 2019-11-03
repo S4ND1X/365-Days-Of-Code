@@ -1,0 +1,2 @@
+#Day 295
+Today we were trying to make our page connect to the Firebase database in real time, but we had problems to do so, so for now I just focused on making the login work and tomorrow I will fix the problem of the DB.

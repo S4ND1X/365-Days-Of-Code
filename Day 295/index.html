@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+    <!-- Configuración responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">   
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- CSS slider bar-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.2.0/css/bootstrap-slider.css" integrity="sha256-4nNFwDQjt2bkG3ywUhc2G9E0CvCRMz3FEhpdGi2fbiY=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.2.0/css/bootstrap-slider.min.css" integrity="sha256-NGswHEy6gjXxyLL+vBBHigA1kGliPHt+7BBPBzntzAw=" crossorigin="anonymous"/>
+    <!-- Nuestro CSS-->
+    <link rel="stylesheet" href="estilo.css">
+
+    <title>Proyecto Semana i</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header clearfix">
+        <hr>
+          <h3 class="text-muted">IOT - Semana i</h3>
+        <hr>
+      </div>
+      <div class="jumbotron text-center">
+        <h1>Lectura de sensores</h1>
+      </div>
+      <div id="divControles">
+        <div class="row">
+          <div class="offset-sm-2 col-sm-4 text-center p-3" >
+            <button id="toogle1" type="button" class="btn btn-success">Reley #1</button></div>
+        </div><!-- row -->
+        <div class="row">
+          <div class="col-md-4 text-center py-3">
+            <input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="255" data-slider-step="1" data-slider-value="14"/></div>
+        </div><!-- row -->
+        <div class="row">
+          <div class="text-center p-3 offset-md-2 col-md-4 offset-sm-1 col-sm-5">
+            <div class="card text-white bg-warning">
+              <div class="card-header">Iluminación</div>
+              <div class="card-body">
+                <p class="card-text" id="iluminacion">Iluminación</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="text-center p-3 col-md-4 col-sm-5">
+            <div class="card text-white bg-info" id="cardM">
+              <div class="card-header">Movimiento</div>
+              <div class="card-body">
+                <p class="card-text" id="movimiento">Movimiento</p>
+              </div>
+            </div>
+          </div>
+        </div><!-- row -->
+
+        <div class="text-center m-4">
+          <button type="button" id="btnSalir" class="btn btn-dark">Cerrar Sesión</button>
+        </div>
+      </div><!-- controles -->
+      <div id="divInicio">
+        <div class="py-2">
+          <label for="inputEmail" class="control-label" >Correo</label>
+          <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+        </div>
+        <div class="py-2">
+          <label for="inputPassword" class="control-label" >Contraseña</label>
+          <input type="password" class="form-control" id="inputPassword" placeholder="Password">          
+        </div>
+        <div class="py-4">
+          <button type="button" id="btnInicio" class="btn btn-dark">Iniciar Sesión</button>
+        </div>
+      </div><!-- inicio -->
+    </div><!-- container -->
+
+    <!-- CDN Firebase JS -->
+    <script src="https://www.gstatic.com/firebasejs/5.5.1/firebase.js"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Scripts para slider bar-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.2.0/bootstrap-slider.js" integrity="sha256-0w/fZPAdu72g2CGIv9Ha8Lp9qXAjls4R2QmMJ5B2Qb4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.2.0/bootstrap-slider.min.js" integrity="sha256-tDcb6zRMjjdonaeNQujdwW5FQdABco7S2Z60J4cbH9s=" crossorigin="anonymous"></script>
+
+    <!-- Nuestro JS -->
+    <script src="app.js"></script>
+    
+  </body>
+</html>

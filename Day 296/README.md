@@ -1,2 +1,2 @@
-#Day 260
-Today I learned to use maps in C ++, knowing how to use this structure will make several programming problems much easier. Tomorrow I will continue to investigate further although I will begin to see stacks and queues.
+#Day 296
+Finally we could make it work, we had quite a few problems but in the end we realized that there was obsolete code that did not allow certain parts of the code to be executed, so we removed them and made some small adjustments and finally we managed to make it work and we could deliver the draft. We made a system for the car that detected the distance between cars, the temperature of the car and automatically opened the windows while turning off the air and also turned on the car lights automatically.

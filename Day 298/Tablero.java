@@ -31,7 +31,6 @@ public class Tablero extends JPanel{
 		this.mezclarCartas();
 		this.agregarCartasATablero();
 	}
-
 //--------------------- Metodos ------------------
 
 	private void agregarCartasATablero() {

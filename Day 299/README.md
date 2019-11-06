@@ -1,2 +1,2 @@
-#Day 299
-Today I tried to finish an OOP project, there are still some things to fix but tomorrow I will finish it
+#Day 300
+Today I managed to finish the oop project, and this week I will have to deliver several final projects, until now everything is going well

@@ -1,0 +1,3 @@
+#Day 313
+Today I was working all day on my final Software Engineering project. I was making an application using Android Studio, which was connected to Firebase and could use the authentication and database services in real time.
+I really liked working on this, although there were errors in the end I managed to make it work, both the login and the DB. Now I need to work on the final OOP project that is delivered on Tuesday.

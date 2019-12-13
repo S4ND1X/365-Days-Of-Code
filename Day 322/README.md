@@ -1,0 +1,2 @@
+#Day 322
+Today I finished the script for the player's movement. It is quite simple although I have noticed that it has certain errors, it is necessary to normalize the vector so that it does not have a double speed if you walk diagonally as well as sometimes there are problems with the slope.

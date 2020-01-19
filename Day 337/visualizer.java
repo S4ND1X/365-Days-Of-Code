@@ -9,6 +9,7 @@ public void preDrawArray(Integer[] squares){
 			squarePanels[i].setBackground(Color.blue);
 			arrayWrapper.add(squarePanels[i], c);
 		}
+		//Prueba de Git
 		repaint();
 		validate();
 	}

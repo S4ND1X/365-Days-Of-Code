@@ -1,0 +1,3 @@
+#Day 354
+
+Today I was solving a few LeetCode exercises, because I want to practice for interviews and also start studying DS in Java. Something that caught my attention is that at least the use of maps in Java is more complicated for me than in C ++. I guess it has to do with the fact that I am already very used to using DS in C ++ but still there are certain steps that I feel are very long in Java, although I hope that everything is not so. Here a solution of a simple problem in C ++ and the same but using Java.
